@@ -1,0 +1,26 @@
+2025-11-24 14:42:46,013 | INFO | 
+============================================================
+🚀 启动评估: densenet121 | 设备: cuda
+============================================================
+2025-11-24 14:42:46,162 | INFO | 📂 加载权重: C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_densenet121.pth
+2025-11-24 14:42:46,539 | INFO | ✅ 权重加载成功
+2025-11-24 14:42:46,627 | INFO | 🔥 全量模式: 共 1202 个阳性样本
+2025-11-24 14:42:46,630 | INFO | ⏳ 正在计算第一个样本，XAI 计算量较大，请耐心等待 (约5-15秒)...
+2025-11-24 14:53:00,237 | 
+🚀 极速评估: densenet121 | Steps=15 | Samples=5
+2025-11-24 14:53:00,827 | ✅ 权重载入: densenet121
+2025-11-24 14:53:00,918 | 🔥 Full: 1202
+2025-11-24 15:37:40,468 | ✅ Done. Time: 44.7m. Saved to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\results\audit_densenet121.csv
+2025-11-24 15:37:40,474 | 
+🚀 极速评估: swin_t | Steps=15 | Samples=5
+2025-11-24 15:37:41,135 | ⚠️ 缺权重: C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth，随机初始化(仅测试)！
+2025-11-24 15:37:41,208 | 🔥 Full: 1202
+2025-11-24 16:23:17,456 | 
+🚀 极速评估: swin_t | Steps=15 | Samples=5
+2025-11-24 16:23:18,300 | ✅ 权重载入: swin_t
+2025-11-24 16:23:18,377 | 🔥 Full: 1202
+2025-11-24 16:27:00,787 | 
+🚀 极速评估: swin_t | Steps=15 | Samples=5
+2025-11-24 16:27:01,727 | ✅ 权重载入: swin_t
+2025-11-24 16:27:01,804 | 🔥 Full: 1202
+2025-11-24 17:38:16,971 | ✅ Done. Time: 71.3m. Saved to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\results\audit_swin_t.csv
