@@ -1,0 +1,254 @@
+2025-11-24 13:17:55 - INFO - Using device: cuda
+2025-11-24 13:17:55 - INFO - ==================================================
+2025-11-24 13:17:55 - INFO - Training Configuration:
+2025-11-24 13:17:55 - INFO - Model: densenet121
+2025-11-24 13:17:55 - INFO - Epochs: 20
+2025-11-24 13:17:55 - INFO - Batch size: 32
+2025-11-24 13:17:55 - INFO - Learning rate: 1.00e-04
+2025-11-24 13:17:55 - INFO - Gradient accumulation: 1
+2025-11-24 13:17:55 - INFO - Data percentage: 10.0%
+2025-11-24 13:17:55 - INFO - Early stopping patience: 5
+2025-11-24 13:17:55 - INFO - ==================================================
+2025-11-24 13:17:55 - INFO - Dataset sizes: Train=1867, Val=266
+2025-11-24 13:17:55 - INFO - Calculating class weights...
+2025-11-24 13:17:55 - INFO - Class distribution - Positive: 442, Negative: 1425, Ratio: 23.67%
+2025-11-24 13:17:55 - INFO - Using positive weight: 3.22
+2025-11-24 13:19:45 - INFO - 
+==================================================
+2025-11-24 13:19:45 - INFO - Epoch 1/20 Results:
+2025-11-24 13:19:45 - INFO - Train Loss: 0.8638 | Val Loss: 0.6363
+2025-11-24 13:19:45 - INFO - Val AUC: 0.8809 | Val Acc: 0.7970 | Val F1: 0.6143
+2025-11-24 13:19:45 - INFO - Learning Rate: 1.00e-04
+2025-11-24 13:19:45 - INFO - ==================================================
+
+2025-11-24 13:19:45 - INFO - Best auc improved (0.880886). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_densenet121.pth
+2025-11-24 13:21:26 - INFO - 
+==================================================
+2025-11-24 13:21:26 - INFO - Epoch 2/20 Results:
+2025-11-24 13:21:26 - INFO - Train Loss: 0.7511 | Val Loss: 0.6655
+2025-11-24 13:21:26 - INFO - Val AUC: 0.8655 | Val Acc: 0.7707 | Val F1: 0.5674
+2025-11-24 13:21:26 - INFO - Learning Rate: 9.94e-05
+2025-11-24 13:21:26 - INFO - ==================================================
+
+2025-11-24 13:21:26 - INFO - EarlyStopping counter: 1 out of 5
+2025-11-24 13:23:07 - INFO - 
+==================================================
+2025-11-24 13:23:07 - INFO - Epoch 3/20 Results:
+2025-11-24 13:23:07 - INFO - Train Loss: 0.6913 | Val Loss: 0.7743
+2025-11-24 13:23:07 - INFO - Val AUC: 0.8644 | Val Acc: 0.7218 | Val F1: 0.5595
+2025-11-24 13:23:07 - INFO - Learning Rate: 9.76e-05
+2025-11-24 13:23:07 - INFO - ==================================================
+
+2025-11-24 13:23:07 - INFO - EarlyStopping counter: 2 out of 5
+2025-11-24 13:25:58 - INFO - Using device: cuda
+2025-11-24 13:25:58 - INFO - ==================================================
+2025-11-24 13:25:58 - INFO - Training Configuration:
+2025-11-24 13:25:58 - INFO - Model: densenet121
+2025-11-24 13:25:58 - INFO - Epochs: 10
+2025-11-24 13:25:58 - INFO - Batch size: 32
+2025-11-24 13:25:58 - INFO - Learning rate: 5.00e-05
+2025-11-24 13:25:58 - INFO - Gradient accumulation: 1
+2025-11-24 13:25:58 - INFO - Data percentage: 50.0%
+2025-11-24 13:25:58 - INFO - Early stopping patience: 8
+2025-11-24 13:25:58 - INFO - ==================================================
+2025-11-24 13:25:58 - INFO - Dataset sizes: Train=9339, Val=1334
+2025-11-24 13:25:58 - INFO - Calculating class weights...
+2025-11-24 13:25:58 - INFO - Class distribution - Positive: 2087, Negative: 7252, Ratio: 22.35%
+2025-11-24 13:25:58 - INFO - Using positive weight: 3.47
+2025-11-24 13:29:05 - INFO - 
+==================================================
+2025-11-24 13:29:05 - INFO - Epoch 1/10 Results:
+2025-11-24 13:29:05 - INFO - Train Loss: 0.7851 | Val Loss: 0.7013
+2025-11-24 13:29:05 - INFO - Val AUC: 0.8693 | Val Acc: 0.7699 | Val F1: 0.6109
+2025-11-24 13:29:05 - INFO - Learning Rate: 5.00e-05
+2025-11-24 13:29:05 - INFO - ==================================================
+
+2025-11-24 13:29:05 - INFO - Best auc improved (0.869291). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_densenet121.pth
+2025-11-24 13:32:07 - INFO - 
+==================================================
+2025-11-24 13:32:07 - INFO - Epoch 2/10 Results:
+2025-11-24 13:32:07 - INFO - Train Loss: 0.7072 | Val Loss: 0.6835
+2025-11-24 13:32:07 - INFO - Val AUC: 0.8748 | Val Acc: 0.7826 | Val F1: 0.6253
+2025-11-24 13:32:07 - INFO - Learning Rate: 4.88e-05
+2025-11-24 13:32:07 - INFO - ==================================================
+
+2025-11-24 13:32:07 - INFO - Best auc improved (0.874780). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_densenet121.pth
+2025-11-24 13:34:58 - INFO - 
+==================================================
+2025-11-24 13:34:58 - INFO - Epoch 3/10 Results:
+2025-11-24 13:34:58 - INFO - Train Loss: 0.6800 | Val Loss: 0.6845
+2025-11-24 13:34:58 - INFO - Val AUC: 0.8755 | Val Acc: 0.7691 | Val F1: 0.6235
+2025-11-24 13:34:58 - INFO - Learning Rate: 4.53e-05
+2025-11-24 13:34:58 - INFO - ==================================================
+
+2025-11-24 13:34:58 - INFO - Best auc improved (0.875480). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_densenet121.pth
+2025-11-24 13:38:11 - INFO - 
+==================================================
+2025-11-24 13:38:11 - INFO - Epoch 4/10 Results:
+2025-11-24 13:38:11 - INFO - Train Loss: 0.6379 | Val Loss: 0.6685
+2025-11-24 13:38:11 - INFO - Val AUC: 0.8775 | Val Acc: 0.7886 | Val F1: 0.6309
+2025-11-24 13:38:11 - INFO - Learning Rate: 3.99e-05
+2025-11-24 13:38:11 - INFO - ==================================================
+
+2025-11-24 13:38:11 - INFO - Best auc improved (0.877495). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_densenet121.pth
+2025-11-24 13:41:20 - INFO - 
+==================================================
+2025-11-24 13:41:20 - INFO - Epoch 5/10 Results:
+2025-11-24 13:41:20 - INFO - Train Loss: 0.6007 | Val Loss: 0.7011
+2025-11-24 13:41:20 - INFO - Val AUC: 0.8695 | Val Acc: 0.7654 | Val F1: 0.6083
+2025-11-24 13:41:20 - INFO - Learning Rate: 3.31e-05
+2025-11-24 13:41:20 - INFO - ==================================================
+
+2025-11-24 13:41:20 - INFO - EarlyStopping counter: 1 out of 8
+2025-11-24 13:44:13 - INFO - 
+==================================================
+2025-11-24 13:44:13 - INFO - Epoch 6/10 Results:
+2025-11-24 13:44:13 - INFO - Train Loss: 0.5503 | Val Loss: 0.7400
+2025-11-24 13:44:13 - INFO - Val AUC: 0.8699 | Val Acc: 0.8103 | Val F1: 0.6391
+2025-11-24 13:44:13 - INFO - Learning Rate: 2.55e-05
+2025-11-24 13:44:13 - INFO - ==================================================
+
+2025-11-24 13:44:13 - INFO - EarlyStopping counter: 2 out of 8
+2025-11-24 13:47:18 - INFO - 
+==================================================
+2025-11-24 13:47:18 - INFO - Epoch 7/10 Results:
+2025-11-24 13:47:18 - INFO - Train Loss: 0.5015 | Val Loss: 0.7286
+2025-11-24 13:47:18 - INFO - Val AUC: 0.8691 | Val Acc: 0.7901 | Val F1: 0.6206
+2025-11-24 13:47:18 - INFO - Learning Rate: 1.79e-05
+2025-11-24 13:47:18 - INFO - ==================================================
+
+2025-11-24 13:47:18 - INFO - EarlyStopping counter: 3 out of 8
+2025-11-24 13:50:11 - INFO - 
+==================================================
+2025-11-24 13:50:11 - INFO - Epoch 8/10 Results:
+2025-11-24 13:50:11 - INFO - Train Loss: 0.4771 | Val Loss: 0.7634
+2025-11-24 13:50:11 - INFO - Val AUC: 0.8674 | Val Acc: 0.7841 | Val F1: 0.6129
+2025-11-24 13:50:11 - INFO - Learning Rate: 1.11e-05
+2025-11-24 13:50:11 - INFO - ==================================================
+
+2025-11-24 13:50:11 - INFO - EarlyStopping counter: 4 out of 8
+2025-11-24 13:53:02 - INFO - 
+==================================================
+2025-11-24 13:53:02 - INFO - Epoch 9/10 Results:
+2025-11-24 13:53:02 - INFO - Train Loss: 0.4354 | Val Loss: 0.7985
+2025-11-24 13:53:02 - INFO - Val AUC: 0.8608 | Val Acc: 0.7924 | Val F1: 0.6026
+2025-11-24 13:53:02 - INFO - Learning Rate: 5.68e-06
+2025-11-24 13:53:02 - INFO - ==================================================
+
+2025-11-24 13:53:02 - INFO - EarlyStopping counter: 5 out of 8
+2025-11-24 13:56:00 - INFO - 
+==================================================
+2025-11-24 13:56:00 - INFO - Epoch 10/10 Results:
+2025-11-24 13:56:00 - INFO - Train Loss: 0.4136 | Val Loss: 0.7934
+2025-11-24 13:56:00 - INFO - Val AUC: 0.8575 | Val Acc: 0.7871 | Val F1: 0.5977
+2025-11-24 13:56:00 - INFO - Learning Rate: 2.20e-06
+2025-11-24 13:56:00 - INFO - ==================================================
+
+2025-11-24 13:56:00 - INFO - EarlyStopping counter: 6 out of 8
+2025-11-24 13:56:00 - INFO - Training completed!
+2025-11-24 15:52:22 - INFO - Using device: cuda
+2025-11-24 15:52:22 - INFO - ==================================================
+2025-11-24 15:52:22 - INFO - Training Configuration:
+2025-11-24 15:52:22 - INFO - Model: swin_t
+2025-11-24 15:52:22 - INFO - Epochs: 10
+2025-11-24 15:52:22 - INFO - Batch size: 32
+2025-11-24 15:52:22 - INFO - Learning rate: 5.00e-05
+2025-11-24 15:52:22 - INFO - Gradient accumulation: 1
+2025-11-24 15:52:22 - INFO - Data percentage: 50.0%
+2025-11-24 15:52:22 - INFO - Early stopping patience: 8
+2025-11-24 15:52:22 - INFO - ==================================================
+2025-11-24 15:52:22 - INFO - Dataset sizes: Train=9339, Val=1334
+2025-11-24 15:52:22 - INFO - Calculating class weights...
+2025-11-24 15:52:22 - INFO - Class distribution - Positive: 2087, Negative: 7252, Ratio: 22.35%
+2025-11-24 15:52:22 - INFO - Using positive weight: 3.47
+2025-11-24 15:55:52 - INFO - 
+==================================================
+2025-11-24 15:55:52 - INFO - Epoch 1/10 Results:
+2025-11-24 15:55:52 - INFO - Train Loss: 0.8102 | Val Loss: 0.7206
+2025-11-24 15:55:52 - INFO - Val AUC: 0.8780 | Val Acc: 0.8366 | Val F1: 0.6495
+2025-11-24 15:55:52 - INFO - Learning Rate: 5.00e-05
+2025-11-24 15:55:52 - INFO - ==================================================
+
+2025-11-24 15:55:52 - INFO - Best auc improved (0.877973). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth
+2025-11-24 15:58:55 - INFO - 
+==================================================
+2025-11-24 15:58:55 - INFO - Epoch 2/10 Results:
+2025-11-24 15:58:55 - INFO - Train Loss: 0.7277 | Val Loss: 0.6677
+2025-11-24 15:58:55 - INFO - Val AUC: 0.8808 | Val Acc: 0.7691 | Val F1: 0.6169
+2025-11-24 15:58:55 - INFO - Learning Rate: 4.88e-05
+2025-11-24 15:58:55 - INFO - ==================================================
+
+2025-11-24 15:58:55 - INFO - Best auc improved (0.880811). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth
+2025-11-24 16:01:47 - INFO - 
+==================================================
+2025-11-24 16:01:47 - INFO - Epoch 3/10 Results:
+2025-11-24 16:01:47 - INFO - Train Loss: 0.7083 | Val Loss: 0.6574
+2025-11-24 16:01:47 - INFO - Val AUC: 0.8845 | Val Acc: 0.7901 | Val F1: 0.6316
+2025-11-24 16:01:47 - INFO - Learning Rate: 4.53e-05
+2025-11-24 16:01:47 - INFO - ==================================================
+
+2025-11-24 16:01:47 - INFO - Best auc improved (0.884467). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth
+2025-11-24 16:04:40 - INFO - 
+==================================================
+2025-11-24 16:04:40 - INFO - Epoch 4/10 Results:
+2025-11-24 16:04:40 - INFO - Train Loss: 0.6729 | Val Loss: 0.6695
+2025-11-24 16:04:40 - INFO - Val AUC: 0.8878 | Val Acc: 0.7459 | Val F1: 0.6090
+2025-11-24 16:04:40 - INFO - Learning Rate: 3.99e-05
+2025-11-24 16:04:40 - INFO - ==================================================
+
+2025-11-24 16:04:40 - INFO - Best auc improved (0.887760). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth
+2025-11-24 16:07:50 - INFO - 
+==================================================
+2025-11-24 16:07:50 - INFO - Epoch 5/10 Results:
+2025-11-24 16:07:50 - INFO - Train Loss: 0.6496 | Val Loss: 0.6608
+2025-11-24 16:07:50 - INFO - Val AUC: 0.8895 | Val Acc: 0.7429 | Val F1: 0.6062
+2025-11-24 16:07:50 - INFO - Learning Rate: 3.31e-05
+2025-11-24 16:07:50 - INFO - ==================================================
+
+2025-11-24 16:07:50 - INFO - Best auc improved (0.889465). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth
+2025-11-24 16:10:47 - INFO - 
+==================================================
+2025-11-24 16:10:47 - INFO - Epoch 6/10 Results:
+2025-11-24 16:10:47 - INFO - Train Loss: 0.6283 | Val Loss: 0.6471
+2025-11-24 16:10:47 - INFO - Val AUC: 0.8900 | Val Acc: 0.7819 | Val F1: 0.6367
+2025-11-24 16:10:47 - INFO - Learning Rate: 2.55e-05
+2025-11-24 16:10:47 - INFO - ==================================================
+
+2025-11-24 16:10:47 - INFO - Best auc improved (0.889951). Saving model to C:\Users\WEI\Desktop\CourseFile\ScientificWriting\RSNA-XAI-Reliability\outputs\checkpoints\best_model_swin_t.pth
+2025-11-24 16:13:45 - INFO - 
+==================================================
+2025-11-24 16:13:45 - INFO - Epoch 7/10 Results:
+2025-11-24 16:13:45 - INFO - Train Loss: 0.6063 | Val Loss: 0.6536
+2025-11-24 16:13:45 - INFO - Val AUC: 0.8866 | Val Acc: 0.7864 | Val F1: 0.6388
+2025-11-24 16:13:45 - INFO - Learning Rate: 1.79e-05
+2025-11-24 16:13:45 - INFO - ==================================================
+
+2025-11-24 16:13:45 - INFO - EarlyStopping counter: 1 out of 8
+2025-11-24 16:16:43 - INFO - 
+==================================================
+2025-11-24 16:16:43 - INFO - Epoch 8/10 Results:
+2025-11-24 16:16:43 - INFO - Train Loss: 0.5820 | Val Loss: 0.6559
+2025-11-24 16:16:43 - INFO - Val AUC: 0.8866 | Val Acc: 0.7751 | Val F1: 0.6250
+2025-11-24 16:16:43 - INFO - Learning Rate: 1.11e-05
+2025-11-24 16:16:43 - INFO - ==================================================
+
+2025-11-24 16:16:43 - INFO - EarlyStopping counter: 2 out of 8
+2025-11-24 16:19:38 - INFO - 
+==================================================
+2025-11-24 16:19:38 - INFO - Epoch 9/10 Results:
+2025-11-24 16:19:38 - INFO - Train Loss: 0.5763 | Val Loss: 0.6667
+2025-11-24 16:19:38 - INFO - Val AUC: 0.8865 | Val Acc: 0.7669 | Val F1: 0.6184
+2025-11-24 16:19:38 - INFO - Learning Rate: 5.68e-06
+2025-11-24 16:19:38 - INFO - ==================================================
+
+2025-11-24 16:19:38 - INFO - EarlyStopping counter: 3 out of 8
+2025-11-24 16:22:37 - INFO - 
+==================================================
+2025-11-24 16:22:37 - INFO - Epoch 10/10 Results:
+2025-11-24 16:22:37 - INFO - Train Loss: 0.5594 | Val Loss: 0.6666
+2025-11-24 16:22:37 - INFO - Val AUC: 0.8866 | Val Acc: 0.7924 | Val F1: 0.6417
+2025-11-24 16:22:37 - INFO - Learning Rate: 2.20e-06
+2025-11-24 16:22:37 - INFO - ==================================================
+
+2025-11-24 16:22:37 - INFO - EarlyStopping counter: 4 out of 8
+2025-11-24 16:22:37 - INFO - Training completed!

@@ -1,0 +1,32 @@
+2025-11-24 12:41:25,716 - INFO - Calculating class weights...
+2025-11-24 12:52:28,489 - INFO - Calculating class weights...
+2025-11-24 13:00:01,897 - INFO - Calculating class weights...
+2025-11-24 13:01:49,264 - INFO -    Train Loss: 0.8593 | Val Loss: 0.6399
+2025-11-24 13:01:49,264 - INFO -    Val AUC: 0.8793 | Val Acc: 0.7895 | Val F1: 0.6000
+2025-11-24 13:01:49,264 - INFO -    LR: 1.00e-04
+2025-11-24 13:01:49,264 - INFO - Validation loss decreased (inf --> 0.639935).  Saving model ...
+2025-11-24 13:06:42,768 - INFO - Calculating class weights...
+2025-11-24 13:08:28,531 - INFO -    Train Loss: 0.8593 | Val Loss: 0.6399
+2025-11-24 13:08:28,531 - INFO -    Val AUC: 0.8793 | Val Acc: 0.7895 | Val F1: 0.6000
+2025-11-24 13:08:28,532 - INFO -    LR: 1.00e-04
+2025-11-24 13:08:28,532 - INFO - Validation loss decreased (inf --> 0.639935).  Saving model ...
+2025-11-24 13:10:14,788 - INFO -    Train Loss: 0.7367 | Val Loss: 0.6913
+2025-11-24 13:10:14,788 - INFO -    Val AUC: 0.8545 | Val Acc: 0.7820 | Val F1: 0.5735
+2025-11-24 13:10:14,788 - INFO -    LR: 9.94e-05
+2025-11-24 13:10:14,788 - INFO - EarlyStopping counter: 1 out of 5
+2025-11-24 13:11:54,577 - INFO -    Train Loss: 0.6984 | Val Loss: 0.7307
+2025-11-24 13:11:54,577 - INFO -    Val AUC: 0.8664 | Val Acc: 0.7368 | Val F1: 0.5455
+2025-11-24 13:11:54,577 - INFO -    LR: 9.76e-05
+2025-11-24 13:11:54,577 - INFO - EarlyStopping counter: 2 out of 5
+2025-11-24 13:13:41,312 - INFO -    Train Loss: 0.6653 | Val Loss: 0.7447
+2025-11-24 13:13:41,312 - INFO -    Val AUC: 0.8416 | Val Acc: 0.7519 | Val F1: 0.5541
+2025-11-24 13:13:41,313 - INFO -    LR: 9.46e-05
+2025-11-24 13:13:41,313 - INFO - EarlyStopping counter: 3 out of 5
+2025-11-24 13:15:24,348 - INFO -    Train Loss: 0.6338 | Val Loss: 0.7584
+2025-11-24 13:15:24,349 - INFO -    Val AUC: 0.8453 | Val Acc: 0.7556 | Val F1: 0.5455
+2025-11-24 13:15:24,349 - INFO -    LR: 9.05e-05
+2025-11-24 13:15:24,349 - INFO - EarlyStopping counter: 4 out of 5
+2025-11-24 13:17:05,164 - INFO -    Train Loss: 0.5156 | Val Loss: 0.7714
+2025-11-24 13:17:05,164 - INFO -    Val AUC: 0.8509 | Val Acc: 0.7932 | Val F1: 0.6154
+2025-11-24 13:17:05,164 - INFO -    LR: 8.55e-05
+2025-11-24 13:17:05,164 - INFO - EarlyStopping counter: 5 out of 5
